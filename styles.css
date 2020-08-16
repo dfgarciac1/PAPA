@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    pad: 0;
+
+}
+body{
+   background:burlywood; 
+   color:white;
+   background-image: url("https://1.bp.blogspot.com/-S-SAIpoU6ts/XX_3MHyyKDI/AAAAAAABRek/UeXmikdAB2YW6gY_c6GObdLHklBfY-btACLcBGAsYHQ/s1600/La%2Bbiblioteca%2Bcambia%2Bde%2Brol%2Bde%2Blos%2Blibros%2Ba%2Bla%2Bformaci%25C3%25B3n.jpg     ");
+   font-size:16px ;
+   font-family: 'Oswald', sans-serif;
+}
+a{
+    color:white;
+}
+ul{
+    list-style: none;
+}   
+/* Para mirar tamaños y cosas  */
+.container{ 
+    width:90%;
+    margin: auto;
+}
+/* Para mirar tamaños y cosas  */
+
+.nav-main{
+    font-size: 17 px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+.nav-brand{
+    width: 100px;
+}
+/* nav left  */
+.nav-main ul {
+    display: flex;
+}
+/* Nota li es porque se llama a cada categoria */
+.nav-main  ul li{
+    /* Separa las cosas */
+    padding: 10px ;
+
+}
+.nav-main ul li a{
+ padding: 2px;
+}
+
+.nav-main ul li a:hover{
+    border-bottom:2px solid white;
+    
+}
+.nav-main ul.nav-menu{
+    flex: 1;
+    margin-left: 20px;
+}
+/* Show case */
+.showcase{
+    width: 100%;
+    background:url( )no-repeat center/cover;
+}
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    background: #262626;
+    color:white;
+    font-size: 15px;
+    border: 1px solid white;
+}
+.NuevasOfertas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.NuevasOfertas img{
+    width: 100%;
+    height: 280px;
+}
