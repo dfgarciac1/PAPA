@@ -1,4 +1,4 @@
-php 
+?php 
 conexion();
 function conexion(){
 $host="127.0.0.1";
@@ -26,4 +26,4 @@ echo "El nombre del usuario es ".$Nombre."<br/>";
 echo "La Edad del usuario es ".$Edad."<br/>";
 echo "El Correo del usuario es ".$Correo."<br/>";
 echo "La Contraseña del usuario es ".$Contraseña."<br/>";
- 
+?>  
