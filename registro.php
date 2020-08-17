@@ -2,7 +2,7 @@
 $Nombre=$_GET['nombre'];
 $Edad=$_GET['Edad'];
 $Correo=$_GET['Correo'];
-$Contraseña=$_GET['Contraseña'];
+$Contrasena=$_GET['Contrasena'];
 
 echo "<h2>Informacion Recibida </h2>";
 echo "El nombre del usuario es " . $Nombre."<br/>";
