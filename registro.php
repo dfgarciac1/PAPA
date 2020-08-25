@@ -1,19 +1,12 @@
-?php 
-conexion();
-function conexion(){
-$host="127.0.0.1";
-$port=3306;
-$socket="";
-$user="root";
-$password="";
-$dbname="";
+<html> 
+<head> 
+<title>Mi primera página el PHP.</title>  
+</head> 
 
-$con = new mysqli($host, $user, $password, $dbname, $port, $socket)
-	or die ('Could not connect to the database server' . mysqli_connect_error());
+<body>
 
-//$con->close();
-
-}
+Mi nombre es: 
+<?php 
 
  
 $Nombre=$_GET['nombre'];
