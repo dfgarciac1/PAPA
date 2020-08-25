@@ -1,22 +1,14 @@
-<html> 
-<head> 
-<title>Mi primera página el PHP.</title>  
-</head> 
 
-<body>
-
-Mi nombre es: 
 <?php 
 
- 
+$destino= "ticaspaspi@gmail.com" ; 
 $Nombre=$_GET['nombre'];
 $Edad=$_GET['Edad'];
 $Correo=$_GET['Correo'];
 $Contraseña=$_GET['Contraseña'];
 
-echo "<h2>Informacion Recibida </h2>";
-echo "El nombre del usuario es ".$Nombre."<br/>";
-echo "La Edad del usuario es ".$Edad."<br/>";
-echo "El Correo del usuario es ".$Correo."<br/>";
-echo "La Contraseña del usuario es ".$Contraseña."<br/>";
+$contenido="Nombre".$Nombre."\nEdad".$Edad;
+mail($destino,"Contacto",$contenido);
+header("Genero.html");
+
 ?>  
